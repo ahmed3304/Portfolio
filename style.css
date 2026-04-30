@@ -86,7 +86,9 @@ svg{
   justify-content: center;
   align-items: center;
 }
-
+.introtext{
+  color:var(--color-text);
+}
 .circle{
   width: 10px;
   height: 10px;
