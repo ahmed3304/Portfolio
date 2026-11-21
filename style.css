@@ -194,7 +194,7 @@ button.learn-more::before {
   height: 100%;
   top: 0;
   left: 0;
-  background: #f9c4d2;
+  background: #e6f4f6;
   border-radius: inherit;
   box-shadow: 0 0 0 2px #b18597, 0 0.625em 0 0 #ffe3e2;
   transform: translate3d(0, 0.75em, -1em);
@@ -212,7 +212,7 @@ button.learn-more:hover::before {
 }
 
 button.learn-more:active {
-  background: #ffe9e9;
+  background: #0093A5;
   transform: translate(0em, 0.75em);
 }
 
