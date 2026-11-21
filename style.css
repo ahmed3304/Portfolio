@@ -22,7 +22,7 @@ svg{
   --color-text-light: #12354E;
   --color-background-light: #FAF4E5;
   --color-pink-light: #F8B6BA;
-  --color-green-light: #DD4027;
+  --color-green-light: #B7C2A9;
   --color-blue-light: #0093A5;
 
   /* Dark Theme Variables */
@@ -130,7 +130,7 @@ svg{
 }
 .button {
   display: flex;
-  background-color: #DD4027;
+  background-color: #B7C2A9;
   color: #ffffff;
   padding: 0.5rem 1.4rem;
   font-size: 0.875rem;
