@@ -208,7 +208,7 @@ button.linkedin:hover {
   border: 1px solid rgb(0, 119, 181);
 }
 
-button:hover::before {
+button.linkedin:hover::before {
   box-shadow: inset 0 0 0 10em #0093A5;
 }
 
