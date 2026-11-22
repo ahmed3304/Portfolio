@@ -15,4 +15,7 @@
     "three": "^0.141.0",
     "vite": "^7.3.7"
   }
+    "overrides": {
+    "picomatch": "^4.0.7"
+  }
 }
