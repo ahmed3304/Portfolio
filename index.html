@@ -12,73 +12,6 @@
 </script>
 	<meta name="description" content="This website is a threeJS (WebGL) based portfolio for Ahmed Hamed,an Infrastructure engineer!.">
 <meta charset="UTF-8" />
-	  <style>
-.loader {
-  position: relative;
-  width: 120px;
-  height: 90px;
-  margin: 0 auto;
-}
-
-.loader:before {
-  content: "";
-  position: absolute;
-  bottom: 30px;
-  left: 50px;
-  height: 30px;
-  width: 30px;
-  border-radius: 50%;
-  background: #e4a1aa;
-  animation: loading-bounce 0.5s ease-in-out infinite alternate;
-}
-
-.loader:after {
-  content: "";
-  position: absolute;
-  right: 0;
-  top: 0;
-  height: 7px;
-  width: 45px;
-  border-radius: 4px;
-  box-shadow: 0 5px 0 #cebbb7, -35px 50px 0 #cebbb7, -70px 95px 0 #cebbb7;
-  animation: loading-step 1s ease-in-out infinite;
-}
-
-@keyframes loading-bounce {
-  0% {
-    transform: scale(1, 0.7);
-  }
-
-  40% {
-    transform: scale(0.8, 1.2);
-  }
-
-  60% {
-    transform: scale(1, 1);
-  }
-
-  100% {
-    bottom: 140px;
-  }
-}
-
-@keyframes loading-step {
-  0% {
-    box-shadow: 0 10px 0 rgba(0, 0, 0, 0),
-            0 10px 0 #cecece,
-            -35px 50px 0 #cecece,
-            -70px 90px 0 #cecece;
-  }
-
-  100% {
-    box-shadow: 0 10px 0 #cebbb7,
-            -35px 50px 0 #c3bbb7,
-            -70px 90px 0 #cebbb7,
-            -70px 90px 0 rgba(0, 0, 0, 0);
-  }
-}
-
-</style>
     <link rel="icon" type="image/svg+xml" href="logo.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ルーム</title>
@@ -293,7 +226,73 @@ onclick="window.location.href='https://github.com/Ahmed13201/ace-iac-day-two';">
 
       </div>
     </div>
-    
+     <style>
+.loader {
+  position: relative;
+  width: 120px;
+  height: 90px;
+  margin: 0 auto;
+}
+
+.loader:before {
+  content: "";
+  position: absolute;
+  bottom: 30px;
+  left: 50px;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background: #e4a1aa;
+  animation: loading-bounce 0.5s ease-in-out infinite alternate;
+}
+
+.loader:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 7px;
+  width: 45px;
+  border-radius: 4px;
+  box-shadow: 0 5px 0 #cebbb7, -35px 50px 0 #cebbb7, -70px 95px 0 #cebbb7;
+  animation: loading-step 1s ease-in-out infinite;
+}
+
+@keyframes loading-bounce {
+  0% {
+    transform: scale(1, 0.7);
+  }
+
+  40% {
+    transform: scale(0.8, 1.2);
+  }
+
+  60% {
+    transform: scale(1, 1);
+  }
+
+  100% {
+    bottom: 140px;
+  }
+}
+
+@keyframes loading-step {
+  0% {
+    box-shadow: 0 10px 0 rgba(0, 0, 0, 0),
+            0 10px 0 #cecece,
+            -35px 50px 0 #cecece,
+            -70px 90px 0 #cecece;
+  }
+
+  100% {
+    box-shadow: 0 10px 0 #cebbb7,
+            -35px 50px 0 #c3bbb7,
+            -70px 90px 0 #cebbb7,
+            -70px 90px 0 rgba(0, 0, 0, 0);
+  }
+}
+
+</style>
 	  <script type="module" src="/main.js"></script>
    </body>
 </html>
